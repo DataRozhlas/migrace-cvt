@@ -1,1 +1,48 @@
-/* styly ve složce styles/ se zakompliují automaticky */
+#mapdiv{
+    width: 50vw;
+    height: 18vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapa {
+    fill:#F7F7F7;
+    stroke:#636363;
+    stroke-width:0.5;
+}
+
+#info {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.narat {
+    max-width: 450px;
+    height: auto;
+    text-align: justify;
+    margin: 15px;
+}
+
+#narat_in {
+    color: #4575b4;
+}
+
+#narat_out {
+    color: #d73027;
+}
+
+#tline {
+    max-height: 300px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #mapdiv {
+        width: 95vw;
+        height: 40vw;
+        display: none;
+    }
+    .narat {
+        width: 100%;
+    }
+}
