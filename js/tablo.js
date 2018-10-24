@@ -24,6 +24,24 @@ function mapHighlight(year) {
         //document.getElementById('narat_in').innerHTML = 'Vyberte rok z grafu.';
     });
     if (year == 'out') { return };
+    narods.update({
+        series: [{
+            name: 'Ostatní',
+            data: [data[year].ostatni]
+        }, {
+            name: 'Poláci',
+            data: [data[year].polaci]
+        }, {
+            name: 'Němci',
+            data: [data[year].nemci]
+        }, {
+            name: 'Slováci',
+            data: [data[year].slovaci]
+        }, {
+            name: 'Češi',
+            data: [data[year].cesi]
+        }]
+    });
 
     document.getElementById('narat_in').innerHTML = data[year].in_txt;
     document.getElementById('narat_out').innerHTML = data[year].out_txt;
@@ -45,14 +63,23 @@ function mapHighlight(year) {
 };
 
 Highcharts.chart('tline', {
+chart: {
+    height: 200,
+},
 title: {
-    text: 'Pohyby obyvatel na území bývalého Československa'
+    text: 'Pohyby obyvatel na území bývalého Československa',
+    style: {
+        display: 'none'
+    }
 },
 credits: {
     enabled: false
 },
 subtitle: {
-    text: 'podle analýzy Člověka v tísni'
+    text: 'podle analýzy Člověka v tísni',
+    style: {
+        display: 'none'
+    }
 },
 yAxis: {
     title: {
@@ -101,6 +128,69 @@ series: [{
     data: ali,
     color: '#8073ac'
 }]
+});
+
+//narslozeni
+var narods = Highcharts.chart('narods', {
+    chart: {
+        height: 170,
+        type: 'bar'
+    },
+    colors: ['#b3b3b3', '#a6d854', '#e5c494', '#fc8d62', '#8da0cb'],
+    credits: {
+        enabled: false
+    },
+    title: {
+        text: ''
+    },
+    style: {
+        display: 'none'
+    },
+    subtitle: {
+        text: 'národnostní složení'
+    },
+    xAxis: {
+        visible: false
+    },
+    yAxis: {
+        //visible: false,
+        title: {
+            text: undefined,
+        },
+        min: 0,
+        max: 100,
+    },
+    legend: {
+        reversed: true
+    },
+    plotOptions: {
+        series: {
+            stacking: 'normal',
+            animation: false,
+            enableMouseTracking: false,
+            events: {
+                legendItemClick: function () {
+                    return false; 
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Ostatní',
+        data: [0.8]
+    }, {
+        name: 'Poláci',
+        data: [1]
+    }, {
+        name: 'Němci',
+        data: [30.6]
+    }, {
+        name: 'Slováci',
+        data: [0]
+    }, {
+        name: 'Češi',
+        data: [67.6]
+    }]
 });
 
 document.getElementById('tline').onmouseout = function() {

@@ -1,8 +1,6 @@
 #mapdiv{
-    width: 50vw;
-    height: 18vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 35vw;
+    height: 10vw;
 }
 
 #mapa {
@@ -14,6 +12,11 @@
 #info {
     width: 100%;
     min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#toprow{
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,7 +37,11 @@
 }
 
 #tline {
-    max-height: 300px;
+    max-height: auto;
+}
+
+#narods {
+    width: 30vw;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #mapdiv {
@@ -43,6 +50,9 @@
         display: none;
     }
     .narat {
+        width: 100%;
+    }
+    #narods {
         width: 100%;
     }
 }

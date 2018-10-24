@@ -22,8 +22,9 @@ Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 oso
 Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
 
 <wide>
+<div id="toprow">
 <div id="mapdiv">
-        <svg id="mapa" version="1.1" viewBox="0 0 850 850" preserveAspectRatio="xMinYMin meet">
+        <svg id="mapa" version="1.1" viewBox="-250 0 1400 300" preserveAspectRatio="xMinYMin meet">
                 <path id="sud" d="
                     M135.2,0.3c-2.3,0-4.4,1.9-6.1,6.7c-1.4,3.6,11.5,6.5,8.6,8.6c-8.6,7.1-20.8,7.8-29.4,12.8c-1.4,0.7,0,4.3-1.5,5
                     c-5.7,2.8-13.6-1.5-17.9,2.1c-3.6,2.8-2.2,8.6-5.8,11.4c-1.4,1.4-2.9-3.6-5-2.9c-6.5,1.4-7.2,9.9-11.5,12.8
@@ -135,13 +136,15 @@ Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních
                     c0.2-0.4,0.2-1-0.1-2.2C799,204.7,799.1,202.6,799.5,201.4z"/>
                 </svg>           
 </div>
+<div id="narods"></div>
+</div>
+
+<div id="tline"></div>
 
 <div id="info">
     <div id="narat_in" class="narat">Vybrete rok z grafu.</div>
     <div id="narat_out" class="narat"></div>
 </div>
-
-<div id="tline"></div>
 </wide>
 
 
