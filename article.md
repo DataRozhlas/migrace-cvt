@@ -1,25 +1,21 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-published: "21. dubna 2018"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+title: "Interaktivní grafika: Sto let migrace v českých zemích"
+perex: "„Migrační krize” je ve srovnání s mohutnými přesuny obyvatel od vzniku Československa po současnost nepodstatná epizoda, ukazuje interaktivní mapa, kterou iROZHLAS.cz vytvořil ve spolupráci s organizací Člověk v tísni."
+published: "26. října 2018"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/demo_danelova06_180409-220516_pj.jpg?itok=O5PxbP5c
+coverimg_note: "Foto <a href='https://www.irozhlas.cz/michaela-danelova-5270376'>Michaela Danelová</a>"
 styles: []
 libraries: [highcharts] #jquery, d3, d3v5, d3csv, highcharts, datatables
-options: [noheader, nopic] #wide, noheader (, nopic)
+options: [] #wide, noheader (, nopic)
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
+Žádná lidská činnost neformovala naši zemi víc než migrace, říká sociální geografka [Tereza Freidingerová](https://www.varianty.cz/kontakty/28). 
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+**Proč jste se rozhodli sestavit zrovna mapu, která ukazuje historii migrace v českých zemích?**
 
-Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.
+Slavíme sto let od založení Československa a je dobré si uvědomit, že klíčové části naší moderní historie se psaly i v zahraničí. Stát by nemohl vzniknout bez exilových aktivit mužů 28. října. A kdyby na to byli v zahraničí sami, nikdy by myšlenku samostatného státu prosadit nedokázali. Museli se opřít o odhodlání a obrovské množství českých a slovenských krajanů.
 
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
+Druhý důvod je, že téma migrace v posledních letech prostoupilo do všeobecné debaty naprosto o všem. Vidíme ho na všech úrovních politiky včetně komunální. A od roku 2015 se o migraci mluví jako kdyby to bylo něco bezprecedentního, co tady nikdy dřív nebylo. Jenže historie dost jasně ukazuje, že to tak není, že tahle země si za posledních sto let prožila migračních vln víc než dost.
+
+_Emigrační a imigrační trendy na našem území za posledních sto let můžete prozkoumat v následující aplikaci. Vyberte příslušný rok v grafu._
 
 <wide>
 <div id="toprow">
@@ -142,23 +138,117 @@ Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních
 <div id="tline"></div>
 
 <div id="info">
-    <div id="narat_in" class="narat">Vybrete rok z grafu.</div>
+    <div id="narat_in" class="narat">Vyberte rok z grafu.</div>
     <div id="narat_out" class="narat"></div>
 </div>
 </wide>
 
+Naše území je totiž migrací formované dlouhodobě. Jestli znáte film Doba ledová, kde zvířátka migrují koridorem mezi pevninským a horským ledovcem, tak ten koridor, to jsme my.  Už tenkrát přes nás všichni migrovali a od té doby je tohle území  s migrací spojené, ať chceme nebo ne. Naše mapa tak aspoň na krátkém úseku naší moderní historie  ukazuje, že – troufnu si říct – není lidské činnosti, která by naši zemi formovala víc, než je právě pohyb lidí přes hranice.
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+**Myslíte si tedy, že nedávný příchod většího počtu migrantů do Evropy není pro Česko tak podstatný, jak to vypadá z jeho prezentace v médiích nebo v politice?**
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+Je podstatný v tom, co s námi dělá v našich hlavách, jak najednou vnímáme sami sebe v kontextu světa: s pocity ztráty bezpečí a ztráty identity. Každý významnější pohyb lidí v posledních sto letech byl u nás spojený s nějakou křivdou, bolestí, nedobrovolností, se vzdorem vůči něčemu, s identitou. Myslím, že do našich reakcí na takzvanou migrační krizi se propisují pozapomenuté zkušenosti z kolektivní paměti – především strach z pohybu. Momentálně tvoří většinu naší populace etničtí Češi. Ale nebylo tomu tak vždy.
 
-Mobilní operátor má [zákonnou povinnost](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+**Jaké největší migrační pohyby mapa ukazuje?**
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+Vysídlení německy mluvících obyvatel po roce 1945 je naprosto bezprecedentní. Musíme si uvědomit, že neodešli jen Němci, ale i Židé mluvící německy, kteří se často vrátili z koncentračních táborů a vzápětí byli „odsunuti”. Zároveň došlo k rozsáhlé dosidlovací akci do území po odsunutých Němcích. Během ní přišlo až 1,7 milionů lidí z jiných koutů Československa i ze zahraničí. Například přišlo okolo 220 000 českých a slovenských krajanů, kteří opustili zemi ještě v devatenáctém století za Rakouska-Uherska. Navíc tyto dva pohyby neprobíhaly jeden po druhém, ale zároveň. Takže se běžně stávalo, že v jedné domácnosti ještě po několik měsíců žili Němci, kteří měli být odsunutí, společně s novými uživateli jejich už bývalého majetku.
+
+**Když všechna dostupná čísla zakreslíme do časové osy, ukážou se i nějaké méně známé a přitom srovnatelně mohutné pohyby lidí?**
+
+Velmi zásadní je uvědomit si obrovské pohyby českých a slovenských občanů ještě před první světovou válkou a těsně po vzniku Československé republiky. Na jednu stranu přišla spousta krajanů doslova z celé planety. Od Argentiny po Kamčatku. Hodně jich přicházelo ze zemědělských oblastní Rakouska-Uherska jako je rumunské pohraničí nebo Moldavsko. Ale i z carského Ruska, z oblasti dnešního Kazachstánu. Hodně z nich se vracelo, aby budovali novou vlast a také proto, že Československo a hlavně české země slibovaly lepší životní podmínky.
+
+**Na druhou stranu je z grafu vidět, že po celou dobu trvání první republiky z českých zemí víc lidí odcházelo než přicházelo.**
+
+Ano, ve stejné době spousta lidí odcházela, hlavně do Spojených států amerických. A nejspíš by odcházeli dál, kdyby USA nezavedly daleko přísnější imigrační pravidla. Pak začala přitvrzovat i Argentina, Kanada… Postupně se začaly zavádět moderní nástroje pro regulaci imigrace: kvóty, víza, pasy.
+
+**Tedy nástroje pro výběr lidí, kteří mohou přijít. Bránila se nějak první Československá republika odchodu svých obyvatel do zámoří?**
+
+Už i Rakousko-Uhersko si regulovalo odchod svých vlastních lidí. Možnost odejít nebyla samozřejmá. Nestačilo se sebrat, prodat chalupu a koupit lodní lístek. Když jste byl pro tu ekonomiku důležitý, tak jste jen tak odcestovat nemohl. Každý stát si už tehdy hlídal své klíčové lidi.
+
+Totéž se dělo při vystěhování německy hovořícího obyvatelstva po druhé světové válce. Odsunu se nevyhnuli ani přívrženci sociální demokracie nebo komunistické strany, antifašističtí Němci i Rakušané, kteří byli za protektorátu perzekvováni. Podle oficiální rétoriky šlo tehdy o to, „odsunout německý živel”, prezident Beneš doslova říkal, že „je nutno vylikvidovat německý živel”. Nijak se to neliší od rétoriky, kterou před tím v opačném gardu používalo nacistické Německo. 
+
+Poválečné Československo tedy používalo takto silnou rétoriku, ale zároveň nedovolilo odchod Němců nepostradatelných pro národní hospodářství. Zejména sklářský průmysl by bez německých mistrů pravděpodobně zkolaboval. Nakonec jich tady v zájmu národního hospodářství zůstalo 160 tisíc. Spousta z nich byla ochotná za možnost zůstat přijmout i horší postavení. Přišli o nemovitosti, o občanství…V 50. letech ho pak získali zpět, také možnost stát se členy odborů. Režim už se na ně díval jako na ostatní zaměstnance.
+
+**Mapa také ukazuje, že s výjimkou emigračních vln po roce 1948 a 1968 do českých přicházelo zemí víc imigrantů, než kolik z nich odcházelo migrantů. Není to chyba v datech?**
+
+V datech od roku 1950 jsou zahrnuté i pohyby mezi Slovenskem a českými zeměmi. Ten zdánlivě silný a trvalý přísun nových obyvatel je způsoben z největší části právě Slováky, kteří se stěhovali do západní části Československa.
+
+Další faktor je, že v ročenkách ČSÚ, odkud jsme v tomto období čerpali oficiální data o migraci, jsou jen regulérní pohyby. Ale těch neregulérních bylo daleko víc. Kolik lidí nelegálně překročilo československou státní hranici a odešlo do zahraničí, o tom máme pořád k dispozici jenom odhady.
+
+**Jak velkou roli hráli za vlády komunistů příchody zahraničních dělníků a studentů ze spřátelených zemí?**
+
+V roce 1989 bylo na území Československa kolem 46 tisíc zahraničních pracovníků ze spřátelených zemí. Jejich počty tedy byly poměrně vysoké, ale statistiky je nezachytily jako usídlené imigranty – obvykle šlo právě o studenty nebo smluvní dělníky přicházející na předem stanovenou dobu několika málo let, nejčastěji z Vietnamu, Angoly, Mongolska a Kuby, přišlo k nám ovšem ze stejných důvodů také mnoho Poláků, Maďarů nebo i Severokorejců.
+
+Detailní data bohužel zatím nemáme k dispozici, každá skupina se evidovala zvlášť a archivy zatím nikdo nezpracoval, ale i tato hrubá čísla krásně ukazují, jak iluzorní je představa, že ze vlády komunistů u nás žádní cizinci nebyli. Není to pravda. Cizinci přicházeli, ale jejich imigrace byla přísně kontrolovaná, byla jasně nastavená pravidla toho, jak se smí pohybovat na československém území. Bydleli v ubytovnách pro zahraniční pracovníky a až do uvolnění pravidel v půlce osmdesátých let například nesměli navazovat partnerské vztahy, z počátku dokonce ani mezi sebou.
+
+**Navazování partnerských vztahů přeci nemohli zakázat ani komunisti.**
+
+Uplatňovaly se velmi kapitalistické až vykořisťovatelské metody vůči námezdní pracovní síle rámované do internacionalizace spolupráce. Například otěhotnění bylo tehdy považováno za porušení pracovně-právního vztahu a porušení podmínek internacionální spolupráce. Kdo z cizinců čekal dítě, mohl si vybrat: buď interrupce, nebo návrat.
+
+Zajímavé je, že když v osmdesátých letech začala vietnamská perestrojka, poměry se hodně uvolnily a promítlo se to i do československých poměrů: Vietnamci začali vyjednávat socialistickou rétorikou zlepšení svého postavení a skutečně ho dosáhli. Takže se k nim začalo přistupovat více jako k soudruhům a k soudružkám a méně jako k námezdní síle.
+
+**Jak je to s migrací na našem území po roce 1989? Máme k dispozici kvalitnější data?**
+
+O imigraci máme docela přesné záznamy, údaje o odchodu Čechů po roce 1989 jsou naopak snad nejbídnější z celé té dlouhé časové řady.
+
+**Proč?**
+
+Chybí přesná evidence. Kdo odchází z České republiku na víc než šest měsíců, měl by se odhlásit z registru obyvatel – ale málokoho, kdo jde pracovat nebo studovat do zahraničí, to napadne. Lidé to dělají většinou až když se chtějí například odhlásit od zdravotního pojištění.
+
+Protože tedy nemáme žádný registr Čechů žijících v zahraničí, data se rekonstruují obráceně: ze statistik cílových států se vytahuje, kolik Čechů na jejich území podle tamějších úřadů žije.
+
+Takže červená čísla, která v mapě ukazují vystěhovalectví včetně občanů České republiky, jsou po roce 1989 strašně podhodnocená. Češi se prostě neodregistrují, pracují třeba pár let v cizině, pak se vrátí, ale naše úřady o tom nevědí.
+
+**Kolika lidí se to týká?**
+
+Odhadem jde od roku 1989 o čtvrt milionu Čechů, kteří mají české státní občanství, to znamená, že se buď narodili v ČR nebo Čechům v cizině a jiné státy, z jejichž statistik se tento údaj rekonstruuje, je mají ve své evidenci.
+
+A je zajímavé, že Česká republika nevnímá svoji zahraniční diasporu jako něco, o co  se může opřít. Když se podíváme na rok 1918, česká diaspora byla klíčový hybatel. Dnes téměř žádné spojení s krajany nemáme. Vypadá to skoro jako kdyby se Česká republika od svých emigrantů snažila úplně odstřihnout. Tedy ovšem s výjimkou zájmu o krajanské komunity, které se formovaly ještě před více jak 100 lety.
+
+**V jiných zemích to tak není?**
+
+Například Poláci nebo i již zmiňovaní Vietnamci své diaspory nepoužívají jen k budování diplomatických vazeb, ale také k pěstování ekonomických vazeb. Státy spojené diasporickým mostem mezi sebou mívají také čilé obchodní vztahy. Česká republika toho skoro vůbec nevyužívá.
+
+Velmi dlouhou dobu, až do roku 2014 například nemohli Češi v zahraničí – až na pár velmi taxativně daných výjimek – mít dvojí občanství. V momentě, kdy přijali cizí státní občanství, pozbyli české.  Debatu ovládala představa, že člověk nemůže být loajální k více než jednomu státu: Nemůžeme mít v pohraničí Němce, protože se nemůžeme spolehnout, že budou loajální vůči Československu…Tenhle přístup – buď pořádný Čech, nebo si v té cizině zůstaň a už s námi neměj nic společného – ale není pro Českou republiku zrovna výhodný.
+
+**Platí pořád, že po všech historických přesunech patří Česká republika národnostně k nejvíce homogenním státům?**
+
+Teď se začíná redefinovat, kdo je vlastně Čech. Pět procent naší populace nejsou občané České republiky. A každým rokem roste počet cizinců, kteří státní občanství získávají, nejvíce mezi Vietnamci. My ale nejsme schopní rekonstruovat, kolik lidí v ČR není původem z České republiky. V momentě, kdy získají státní občanství, se už v datech neobjeví jako někdo, kdo má imigrační background.
+
+**Podílela jste se i na publikaci Dvacet let české imigrační politiky: Liberální, restriktivní, nebo ještě jiná. Jaká je tedy z vašeho pohledu současná česká imigrační politika?**
+
+Musíme oddělit azylovou politiku od aktuální imigrační politiky. Azylová  politika je kapitola sama pro sebe, v drtivé většině není formována politickými rozhodnutími v Česku. Propisují se do ní mezinárodní úmluvy, nařízení a směrnice EU. Ten zlomek, o kterém rozhoduje česká politika, je minimální. 
+
+Pak tu máme imigrační politiku, ta má dvě velké složky: jedna je pohyb obyvatel v rámci EU, který se také řídí unijním právem, které Česká republiky spoluutváří, ale přímo netvoří. Imigrace ze zemí mimo unii se zase dělí: Na ty, kdo tady už mají trvalý pobyt nebo jsou rodinnými příslušníky těch, kdo mají trvalý pobyt a zbytek. První skupina opět spadá pod pravidla EU. Zbývá menší část imigrantů, jsou to studenti, lidé s dlouhodobým pobytem za účelem zaměstnání a podnikání a velmi omezeně slučování rodin a částečně diplomatické mise.
+
+A jenom tuhle velmi malou část přímo ovlivňuje česká politika. A její hlavní tendence je silný tlak, aby se předcházelo udělení trvalého pobytu.
+
+**Kde ten tlak vzniká?**
+
+Vychází z potřeb pracovního trhu. Imigrační politika je u nás nastavovaná tak, aby flexibilně reagovala na potřeby pracovního trhu. Ale není tak flexibilní, jak by si představovali zaměstnavatelé.
+
+Ministerstvo vnitra už z podstaty resortu vychází při nastavování imigrační politiky z bezpečnostní perspektivy. Proto nastavuje obrovské množství pravidel, která mají předcházet nějakému riziku.
+
+Ale když se rozběhne ekonomika, v ten moment do toho vstoupí ministerstvo průmyslu a obchodu a začne tlačit na to, aby se začaly dělat výjimky z výjimek: režim Ukrajina, režim Filipíny…  Ano, můžete ve zkrácené lhůtě získat pracovní povolení nebo zaměstnaneckou kartu, ale ta se pak třeba už nedá prodloužit. Tím pádem imigrant nikdy nedosáhne na povinných pět let pro získání trvalého pobytu a zůstane v kategorii cizinců, kteří jsou „snadno odstěhovatelní”. 
+
+Ve skutečnosti to tak ale nefunguje. Když někomu seberete pobyt, ještě to neznamená, že se odstěhuje: Spíš spadne do ilegality.
+
+**Takže je naše imigrační politika příliš restriktivní?**
+
+Byla liberální, teď je restriktivnější. V devadesátých letech bylo snadnější přijít, získat pobyt, ale nebylo možné se usadit. Neexistoval institut trvalého pobytu. Kdo dnes splní všechny podmínky – nesmí mít například dluhy vůči českému státu – může trvalého pobytu dosáhnout. To dává příchozím obrovskou jistotu, kterou v devadesátých letech neměli, a to je velký posun.
+
+Migrační politika se začíná měnit také v tom, že víc tlačí i na soukromé subjekty, aby přejímaly odpovědnost za to, když sem přivezou hodně pracovníků. Například je vyvíjen tlak, aby zaměstnanci byli kmenoví, nikoliv agenturní, a tím měli nějakou pracovněprávní ochranu. Nemůže se stát, že je ze dne na den vyhodí z agentury, stanou se bezprizornými a státe starej se.
+
+Problém je v tom, že se český stát na migraci dívá velmi pragmaticky a předpokládá, že i samotní migranti se na ni dívají pragmaticky. Že si spočítají, že jedna a jedna jsou dvě – a když je náhodou hůř, jedna mínus jedna je nula, tak to radši odejdu. Jenže takhle migrace skoro nikdy nefunguje. Z minulosti vidíme,  že když přišla krize po roce 2008, migranti neodešli, ani když jedna mínus jedna byla nula. Zůstali,  propadli většinou do nelegality a pak s tím byly problémy.
+
+Průšvih je, že stát vůbec nepočítá s tím, že člověk je lidská bytost, která se tady třeba zamiluje. Nedejbože do Čecha. Mají spolu dítě. A pak trvá tři nebo čtyři roky, než se taková rodina ustálí, protože musí neustále tančit mezi úředníky, přitom neví, jestli tady táta nakonec zůstane nebo nezůstane, nemůže úplně pracovat…
+
+**Napsala jste také vědeckou práci na téma mýty o mezinárodní migraci. Jaké jsou ty nejrozšířenější?**
+
+Jeden z největších mýtů, které se pořád drží, je, že Evropu zaplaví horda chudých nevzdělanců. My ale máme dvě stě let detailně zmapovaných obřích migračních pohybů a všechny ukazují stejný vzorec: ti nejchudší nikdy nemigrují, protože na to jednoduše nemají. Migrace je strašně náročná na finanční zdroje, na psychiku, na sociální kapitál. Potřebujete nemalé kompetence na to, abyste odchod ze země zvládli. 
+
+I když ti nejchudší utíkají před bezprostředním ohrožením života, odcházejí jen do nejbližší možné bezpečné destinace. Představa, že nás zavalí nejchudší z nejchudších, je opravdu jenom iluze. Nejčastěji migruje střední třída. Dostat se třeba z Vietnamu do Česka stojí dvanáct až čtrnáct tisíc dolarů. Migrant na to musí mít, jinak by to splácel celý život v zemi s průměrnou mzdou mezi třemi a čtyřmi tisíci korunami měsíčně.
+
+Druhý mýtus je, že migranti migrují proto, aby někoho přesvědčili o své víře. Jenže když migrant přijde na nové místo, řídí se obvykle [Maslowovou pyramidou potřeb](https://cs.wikipedia.org/wiki/Maslowova_pyramida). Je úplně jedno, jestli migruje z Horní Dolní do Prahy nebo z Vietnamu do Chebu, ale první měsíce je sražený na dno této pyramidy a řeší jenom, kde bude bydlet, co budete jíst, kde bude pracovat, jak to tady funguje. Horní patra pyramidy, seberealizace, to určitě při příchodu neřeší. To je obrovská iluze. 
+
+Když se podívám na výzkumy o krajanech, tak to, co dnešní Češi nejvíc obdivují na krajanech, kteří odešli v devatenáctém století, je, jak odolávají asimilaci. Jak například rumunští Češi v Banátu pořád mluví česky, zpívají české písničky, uchovali si lidové zvyky. Zároveň ale, když se někdo odjinud chová stejně tady, odsuzujeme ho za neochotu přizpůsobit se nám.
