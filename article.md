@@ -1,4 +1,4 @@
-title: "Interaktivní grafika: Sto let migrace v českých zemích"
+title: "Interaktivní grafika ke století republiky: žádná lidská činnost neformovala naši zemi víc než migrace"
 perex: "„Migrační krize” je – ve srovnání s mohutnými přesuny obyvatel od vzniku Československa po současnost – nepodstatná epizoda, ukazuje interaktivní mapa, kterou iROZHLAS.cz vytvořil ve spolupráci s organizací Člověk v tísni."
 published: "26. října 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/demo_danelova06_180409-220516_pj.jpg?itok=O5PxbP5c
