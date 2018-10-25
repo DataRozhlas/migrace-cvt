@@ -11,7 +11,7 @@
 
 #info {
     width: 100%;
-    min-height: 150px;
+    min-height: 180px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -26,6 +26,7 @@
     height: auto;
     text-align: justify;
     margin: 15px;
+    font-size: 14px;
 }
 
 #narat_in {
@@ -41,7 +42,7 @@
 }
 
 #narods {
-    width: 30vw;
+    width: 25vw;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #mapdiv {
