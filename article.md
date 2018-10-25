@@ -147,6 +147,13 @@ Naše území je totiž migrací formované dlouhodobě. Jestli znáte film Doba
 **Myslíte si tedy, že nedávný příchod většího počtu migrantů do Evropy není pro Česko tak podstatný, jak to vypadá z jeho prezentace v médiích nebo v politice?**  
 Je podstatný v tom, co s námi dělá v našich hlavách, jak najednou vnímáme sami sebe v kontextu světa: s pocity ztráty bezpečí a ztráty identity. Každý významnější pohyb lidí v posledních sto letech byl u nás spojený s nějakou křivdou, bolestí, nedobrovolností, se vzdorem vůči něčemu, s identitou. Myslím, že do našich reakcí na takzvanou migrační krizi se propisují pozapomenuté zkušenosti z kolektivní paměti – především strach z pohybu. Momentálně tvoří většinu naší populace etničtí Češi. Ale nebylo tomu tak vždy.
 
+<right>
+    <p><img src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/uploader/dsc4492-1626x1080_180716-183425_haf.jpg?itok=3m5MtWJK" style="width: 100%;"></p>
+    <p>
+	<a href="https://www.irozhlas.cz/zpravy-domov/prijeti-450-migrantu-stredozemni-more-migrace-andrej-babis-italie-prijimani_1807181200_haf">V centrech pro migranty je 620 volných míst. Politici nikoho přijmout nechtějí</a>
+	</p>
+</right>
+
 **Jaké největší migrační pohyby mapa ukazuje?**  
 Vysídlení německy mluvících obyvatel po roce 1945 je naprosto bezprecedentní. Musíme si uvědomit, že neodešli jen Němci, ale i Židé mluvící německy, kteří se často vrátili z koncentračních táborů a vzápětí byli „odsunuti”. Zároveň došlo k rozsáhlé dosídlovací akci na území po odsunutých Němcích. Během ní přišlo až 1,7 milionu lidí z jiných koutů Československa i ze zahraničí. Například přišlo okolo 220 000 českých a slovenských krajanů, kteří opustili zemi ještě v devatenáctém století za Rakouska-Uherska. Navíc tyto dva pohyby neprobíhaly jeden po druhém, ale zároveň. Takže se běžně stávalo, že v jedné domácnosti ještě po několik měsíců žili Němci, kteří měli být odsunuti, společně s novými uživateli jejich už bývalého majetku.
 
@@ -181,14 +188,9 @@ Uplatňovaly se velmi kapitalistické, až vykořisťovatelské metody vůči n�
 Zajímavé je, že když v osmdesátých letech začala vietnamská perestrojka, poměry se hodně uvolnily a promítlo se to i do československých poměrů: Vietnamci začali vyjednávat socialistickou rétorikou zlepšení svého postavení a skutečně ho dosáhli. Takže se k nim začalo přistupovat více jako k soudruhům a k soudružkám a méně jako k námezdní síle.
 
 <left>
-	<p>
-	<b>Čtěte také</b>
-	</p>
+    <p><img src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_rubrikovy_nahled/public/images/03681407.jpeg?itok=3ljgZCC4" style="width: 100%;"></p>
     <p>
 	<a href="https://extra.rozhlas.cz/yusra-mardini#58704">Yusra plave o život: cesta syrské plavkyně z rozbombardovaného Damašku až na olympiádu do Ria</a>
-	</p>
-    <p>
-	<a href="https://www.irozhlas.cz/zpravy-domov/prijeti-450-migrantu-stredozemni-more-migrace-andrej-babis-italie-prijimani_1807181200_haf">V centrech pro migranty je 620 volných míst. Politici nikoho přijmout nechtějí</a>
 	</p>
 </left>
 
@@ -235,6 +237,13 @@ Ve skutečnosti to tak ale nefunguje. Když někomu seberete pobyt, ještě to n
 Byla liberální, teď je restriktivnější. V devadesátých letech bylo snadnější přijít, získat pobyt, ale nebylo možné se usadit. Neexistoval institut trvalého pobytu. Kdo dnes splní všechny podmínky – nesmí mít například dluhy vůči českému státu – může trvalého pobytu dosáhnout. To dává příchozím obrovskou jistotu, kterou v devadesátých letech neměli, a to je velký posun.
 
 Migrační politika se začíná měnit také v tom, že víc tlačí i na soukromé subjekty, aby přejímaly odpovědnost za to, když sem přivezou hodně pracovníků. Například je vyvíjen tlak, aby zaměstnanci byli kmenoví, nikoliv agenturní, a tím měli nějakou pracovněprávní ochranu. Nemůže se stát, že je ze dne na den vyhodí z agentury, stanou se bezprizornými a „státe, starej se“.
+
+<right>
+    <p><img src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_rubrikovy_nahled/public/uploader/babis_2_180918-173212_mda.jpg?itok=Q3s0vkm9" style="width: 100%;"></p>
+    <p>
+	<a href="https://www.irozhlas.cz/zpravy-domov/babis-sirotci-sojdrova-prijeti-sirotku-syrie_1809202032_dbr">Udělali ze mě zrůdu. Pochybuji, že ty děti existují‚ řekl Babiš o návrhu Šojdrové. Podle něj je ,pomatená‘</a>
+	</p>
+</right>
 
 Problém je v tom, že se český stát na migraci dívá velmi pragmaticky a předpokládá, že i samotní migranti se na ni dívají pragmaticky. Že si spočítají, že jedna a jedna jsou dvě – a když je náhodou hůř, jedna minus jedna je nula, tak to radši odejdu. Jenže takhle migrace skoro nikdy nefunguje. Z minulosti vidíme,  že když přišla krize po roce 2008, migranti neodešli, ani když jedna minus jedna byla nula. Zůstali,  propadli většinou do nelegality a pak s tím byly problémy.
 
