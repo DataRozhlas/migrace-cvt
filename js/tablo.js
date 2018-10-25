@@ -6,16 +6,16 @@ var celk = {
     'Pohraničí': ['sud'],
 };
 
-var img = Object.values(data).map(function(v) {
-    return v.in
+var img = Object.keys(data).map(function(v) {
+    return data[v].in
 });
 
-var emg = Object.values(data).map(function(v) {
-    return v.out
+var emg = Object.keys(data).map(function(v) {
+    return data[v].out
 });
 
-var ali = Object.values(data).map(function(v) {
-    return v.cizinci
+var ali = Object.keys(data).map(function(v) {
+    return data[v].cizinci
 });
 
 function mapHighlight(year) {
