@@ -42,7 +42,8 @@
 }
 
 #narods {
-    width: 25vw;
+    width: 30%;
+    max-width: 30%;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #mapdiv {
@@ -54,6 +55,7 @@
         width: 100%;
     }
     #narods {
-        width: 100%;
+        max-width: 100%;
+        width:100%;
     }
 }
